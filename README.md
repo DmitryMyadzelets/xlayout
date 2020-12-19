@@ -25,5 +25,11 @@ echo $PATH
 mv xlayout ~/bin/
 ```
 
+## Usage Tips
+Get layout short name:
+```bash
+xlayout | grep Layout | cut -d' ' -f3
+```
+
 ## Alternatives
 * [xkblayout-state](https://github.com/nonpop/xkblayout-state)
