@@ -12,15 +12,15 @@ Layout name: it
 ## Compilation and Installation
 
 You may need to install some packages for compilation: 
-```
+```bash
 apt install gcc x11proto-dev
 ```
 Compile:
-```
+```bash
 gcc -I/usr/include xlayout.c -lX11 -lxkbfile -o xlayout
 ```
 Move it to a directory where your shell searces for executables. For instance:
-```
+```bash
 echo $PATH
 mv xlayout ~/bin/
 ```
