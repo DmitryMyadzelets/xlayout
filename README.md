@@ -25,3 +25,5 @@ echo $PATH
 mv xlayout ~/bin/
 ```
 
+## Alternatives
+* [xkblayout-state](https://github.com/nonpop/xkblayout-state)
