@@ -33,3 +33,4 @@ xlayout | grep Layout | cut -d' ' -f3
 
 ## Alternatives
 * [xkblayout-state](https://github.com/nonpop/xkblayout-state)
+* [xkb-switch](https://github.com/grwlf/xkb-switch)
