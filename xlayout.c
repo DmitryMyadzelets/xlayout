@@ -1,5 +1,3 @@
-// Compile with:
-// gcc -I/usr/include xlayout.c -lX11 -lxkbfile -o xlayout
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
